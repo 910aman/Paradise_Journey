@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paradise_Journey.first_Page.fragment_Class.home_one_Fragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--    For Recycler View One-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#8E6161"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Category_HillStationTxt"
+                android:textColor="#C6F8F9FA"
+                android:text="Hill Station"
+                android:textSize="25sp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/teal_200"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="More ->"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginTop="60dp"
+            android:background="#B17070"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/RV_FirstPage_firstRV" />
+
+    </FrameLayout>
+</FrameLayout>

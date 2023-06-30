@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paradise_Journey.Db_Replac_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="left">
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/fragmentContainerparadise"/>-->
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--        android:layout_marginBottom="50dp">-->
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/tB_Dashboard"
+                    app:title="@string/app_name"
+                    android:background="#423434"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/tL_Dashboard"
+                    android:overScrollMode="always"
+                    app:tabSelectedTextColor="#DD0D0D"
+                    app:tabTextColor="@color/black"
+                    app:tabMode="scrollable"/>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/container_Fragment"
+                android:layout_marginTop="110dp">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/ViewPager_dB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:id="@+id/bottom_Nav" />-->
+
+
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:background="#F4A23A"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:id="@+id/nav_drawer"-->
+<!--            app:headerLayout="@layout/navigation_header_layout"-->
+<!--            app:menu="@menu/navigation_menu_file"/>-->
+
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

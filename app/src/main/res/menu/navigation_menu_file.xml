@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:title="This is my Group"
+            android:id="@+id/group1">
+
+            <menu>
+
+                <item
+                    android:id="@+id/menu1"
+                    android:title="This is menu 1"
+                    android:icon="@drawable/ic_personal_details"/>
+                <item
+                    android:id="@+id/menu2"
+                    android:title="This is menu 2"
+                    android:icon="@drawable/ic_group_add"/>
+                <item
+                    android:id="@+id/menu3"
+                    android:title="This is menu 3"
+                    android:icon="@drawable/ic_verified"/>
+                <item
+                    android:id="@+id/menu4"
+                    android:title="This is menu 4"
+                    android:icon="@drawable/ic_settings"/>
+
+            </menu>
+        </item>
+
+
+
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:title="THis is another Group"/>
+
+
+    </group>
+
+</menu>

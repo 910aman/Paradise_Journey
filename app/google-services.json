@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082883382892",
+    "project_id": "newparadise-17de3",
+    "storage_bucket": "newparadise-17de3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082883382892:android:073068fa7eed8fa88a0249",
+        "android_client_info": {
+          "package_name": "com.example.paradise_journey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082883382892-ddkkt5umgv5619n2o5on00gpq1ci1gpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsTZUJTtTJ9EVGCrUcEpwVhvDxVaNvuaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082883382892-ddkkt5umgv5619n2o5on00gpq1ci1gpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
